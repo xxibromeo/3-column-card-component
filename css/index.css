@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    margin: 150px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.logo{
+    height: 50px;
+    
+}
+.box{
+    display: inline-table;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.con1{
+    background-color:hsl(31, 77%, 52%);
+    padding: 40px 50px ;
+    color: white;
+}
+.con2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px 50px ;
+    color: white;
+}
+.con3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px 50px ;
+    color: white;
+}
+.button{
+    margin-top:30%;
+    border-radius: 20px;
+    border: solid rgb(250, 249, 247);
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    background-color: rgb(250, 249, 248);
+    display: inline-block;
+}
+.b1{
+    color: hsl(31, 77%, 52%);
+}
+.b2{
+    color: hsl(184, 100%, 22%);
+}
+.b3{
+    color: hsl(179, 100%, 13%);
+}
+.button:hover{
+    color: white;
+    background-color: transparent;
+}
+@media only screen and (max-width:375px) {
+    
+   .container{
+       display: flex;
+       flex-direction: column;
+       border: 1px solid;
+       font-family: 'Lexend Deca', sans-serif;
+       display: inline-table;
+   }
+   .box{
+       font-size: 15px;
+       padding: 10px;
+   }
+   .con1{
+    background-color:hsl(31, 77%, 52%);
+    padding: 40px 50px ;
+    color: white;
+   }
+   .con2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px 50px ;
+    color: white;
+}
+.con3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px 50px ;
+    color: white;
+}
+.button{
+    margin-top: 40px;
+    border-radius: 20px;
+    border: solid rgb(250, 249, 247);
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    background-color: rgb(250, 249, 248);
+ 
+}
+.b1{
+    color: hsl(31, 77%, 52%);
+    display: inline-table;
+}
+.b2{
+    color: hsl(184, 100%, 22%);
+}
+.b3{
+    color: hsl(179, 100%, 13%);
+}
+.button:hover{
+    color: white;
+    background-color: transparent;
+}
+}
